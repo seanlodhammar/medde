@@ -1,0 +1,21 @@
+.sidebar-link {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 0px;
+}
+
+.sidebar-link:hover {
+    background: #181818;
+}
+
+.selected {
+    background: #181818;
+}
+
+#text-wrapper {
+    font-size: medium;
+    margin-left: 20px;
+}

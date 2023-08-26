@@ -1,0 +1,28 @@
+.preview-box {
+    border-radius: 20px;
+    background: #202020;
+    box-shadow: 0px 0px 24px 3px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: start;
+}
+
+.analytics-box {
+    width: 800px;
+    margin-left: 50px;
+    height: 600px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--light-purple);
+    margin-left: 2px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}

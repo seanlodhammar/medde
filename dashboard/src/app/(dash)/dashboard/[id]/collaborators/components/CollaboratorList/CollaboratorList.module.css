@@ -1,0 +1,19 @@
+.collaborator-list {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.collaborator-title {
+    font-weight: 400;
+}
+
+#actions-title {
+    margin-right: 50px;
+}

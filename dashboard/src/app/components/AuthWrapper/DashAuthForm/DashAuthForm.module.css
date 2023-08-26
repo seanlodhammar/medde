@@ -1,0 +1,60 @@
+.dash-auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    width: 500px;
+    background-color: rgb(39, 39, 39);
+    justify-content: center;
+}
+
+#form-title {
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    top: 0%;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 45%;
+    justify-content: center;
+}
+
+.auth-input {
+    width: 380px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    caret-color: white;
+    color: white;
+    font-size: 15px;
+    background: transparent;
+}
+
+.auth-input:focus{
+    border-bottom-color: #AA4FE1;
+}
+
+#submit-btn {
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    font-size: medium;
+    margin-top: 6%;
+    background: linear-gradient(90deg, #BD7ADD 0%, #B331F0 100%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+}

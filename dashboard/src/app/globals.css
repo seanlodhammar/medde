@@ -1,0 +1,13 @@
+:root {
+  background-color: #202020; 
+  color: white;
+  --light-gray: #242424;
+  --gray: #222222;
+  --light-purple: #AA4FE1;
+}
+
+body {
+  margin: 0;
+  left: 0;
+  top: 0;
+}

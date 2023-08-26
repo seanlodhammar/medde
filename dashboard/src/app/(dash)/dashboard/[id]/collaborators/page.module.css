@@ -1,0 +1,14 @@
+#add-btn {
+    padding: 10px;
+    background-color: var(--light-purple);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    opacity: 0.8;
+}
+

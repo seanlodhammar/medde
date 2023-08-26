@@ -1,0 +1,58 @@
+.collaborator {
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgb(92, 92, 92) 1px solid;
+}
+
+.collaborator-text {
+    font-weight: 400;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+#collaborator-email {
+    width: 21.5%;
+}
+
+#collaborator-date {
+    width: 24.5%;
+}
+
+#collaborator-permissions {
+    width: 25%;
+}
+
+#collaborator-status {
+    width: 21%;
+}
+
+.collaborator-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    margin-right: 0px;
+}
+
+.collaborator-action {
+    height: 60%;
+    width: 40%;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.collaborator-action:hover {
+    background-color: var(--light-gray);
+}
+
+.collaborator-info {
+    color: lightblue;
+}
+
+.collaborator-remove {
+    color: red;
+}

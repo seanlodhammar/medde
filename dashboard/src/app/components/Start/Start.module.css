@@ -1,0 +1,49 @@
+.start {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 620px;
+    background: linear-gradient(135deg, #AA4FE1 0%, #353987 100%);
+    z-index: -1;
+}
+
+.heading {
+    font-size: 40px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.incentive {
+    margin-top: 0;
+    font-size: 25px;
+    width: 625px;
+    text-align: center;
+}
+
+.info-btn {
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    font-size: large;
+    background: #AA4FE1;
+    margin-top: 20px;
+    width: 170px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .heading {
+        margin-top: 120px;
+        width: auto;
+        width: 80%;
+    }
+
+    .incentive {
+        width: 80%;
+        margin-bottom: 0;
+    }
+    
+}

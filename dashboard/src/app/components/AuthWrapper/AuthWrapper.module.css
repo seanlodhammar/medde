@@ -1,0 +1,11 @@
+.auth-wrapper {
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 80%;
+    min-height: 472px;
+    max-height: 600px;
+}
+

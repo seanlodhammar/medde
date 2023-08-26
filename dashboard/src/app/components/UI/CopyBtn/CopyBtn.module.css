@@ -1,0 +1,15 @@
+.copy-btn {
+    height: 35px;
+    width: 80px;
+    font-size: small;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--light-purple);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.copy-btn:hover {
+    opacity: 0.8;
+}

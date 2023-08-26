@@ -1,0 +1,18 @@
+.page {
+    width: 80%;
+}
+
+.page-wrapper {
+    margin-left: 40px;
+}
+
+.page-title {
+    margin-top: 40px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+}

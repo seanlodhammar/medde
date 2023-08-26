@@ -1,0 +1,134 @@
+.sidebar {
+    height: calc(100vh - 130px);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #202020;
+    box-shadow: 11px 0px 15px -2px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.inner-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#link-text-wrapper {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#return-link {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin: 0;
+}
+
+#return-link:hover {
+    background: #181818;
+}
+
+#arrow-symbol {
+    font-size: 1.5em;
+    color: white;
+    margin-right: 15px;
+}
+
+.bottom-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-btn {
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: red;
+    border: none;
+    outline: none;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #181818;
+}
+
+.project-deletion-form {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+#project-name-label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#project-name-input {
+    width: 90%;
+    border: 1.5px solid red;
+    outline: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: medium;
+    background: none;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#deletion-label-mark {
+    color: rgb(255, 55, 55);
+    background: none;
+}
+
+.button-wrapper {
+    margin-top: 30px;
+}
+
+.deletion-form-btn {
+    height: 35px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.deletion-form-btn:hover {
+    opacity: 0.8;
+}
+
+#deletion-form-submit-btn {
+    background-color: rgb(255, 55, 55);
+    color: white;
+}
+
+#deletion-form-cancel-btn {
+    background-color: var(--light-purple);
+    color: white;
+}
+
+.condition-not-met {
+    opacity: 0.7 !important;
+    cursor: not-allowed;
+}

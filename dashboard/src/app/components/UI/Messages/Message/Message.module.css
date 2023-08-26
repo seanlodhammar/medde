@@ -1,0 +1,24 @@
+.message {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.success {
+    background-color: rgb(88, 139, 58);
+    border: 2px solid rgb(120, 216, 82);
+}
+
+.failure {
+    background-color: rgb(150, 24, 24);
+    border: 2px solid rgb(250, 32, 32);
+}
