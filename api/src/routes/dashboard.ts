@@ -14,7 +14,7 @@ const router = express.Router();
 const MongoDBStore = MongoStore(session);
 
 const store = new MongoDBStore({
-    uri: 'mongodb+srv://sean:GetOO44B2jXgSXTS@testcluster.cfgo7qm.mongodb.net/medde',
+    uri: `${process.env.MONGODB_URI}`,
     collection: 'dashboard-sessions',
 })
 

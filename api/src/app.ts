@@ -13,8 +13,7 @@ const server = http.createServer(app);
 
 app.use(bodyParser.json());
 
-
-mongoose.connect(`mongodb+srv://sean:${process.env.MONGODB_PASSWORD}@testcluster.cfgo7qm.mongodb.net/medde`).then().catch((err) => {
+mongoose.connect(`${process.env.MONGODB_URI}`).then().catch((err) => {
     console.log(err);
 });
 

@@ -14,7 +14,7 @@ const router = express_1.default.Router();
 const MongoDBStore = (0, connect_mongodb_session_1.default)(express_session_1.default);
 router.post('/authorize', api_1.createAccessToken);
 const store = new MongoDBStore({
-    uri: `mongodb+srv://sean:${process.env.MONGODB_PASSWORD}@testcluster.cfgo7qm.mongodb.net/medde`,
+    uri: `${process.env.MONGODB_URI}`,
     collection: 'api-sessions',
 });
 exports.apiSession = (0, express_session_1.default)({

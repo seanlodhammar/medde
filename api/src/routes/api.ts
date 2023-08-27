@@ -15,7 +15,7 @@ const MongoDBStore = MongoStore(session);
 router.post('/authorize', createAccessToken);
 
 const store = new MongoDBStore({
-    uri: `mongodb+srv://sean:${process.env.MONGODB_PASSWORD}@testcluster.cfgo7qm.mongodb.net/medde`,
+    uri: `${process.env.MONGODB_URI}`,
     collection: 'api-sessions',
 })
 

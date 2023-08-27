@@ -14,7 +14,7 @@ const dashboard_1 = __importDefault(require("./routes/dashboard"));
 const app = (0, express_1.default)();
 const server = http_1.default.createServer(app);
 app.use(body_parser_1.default.json());
-mongoose_1.default.connect(`mongodb+srv://sean:${process.env.MONGODB_PASSWORD}@testcluster.cfgo7qm.mongodb.net/medde`).then().catch((err) => {
+mongoose_1.default.connect(`${process.env.MONGODB_URI}`).then().catch((err) => {
     console.log(err);
 });
 app.use('/dashboard', (0, cors_1.default)({ origin: 'http://localhost:3001', methods: ['GET', 'POST', 'DELETE', 'PUT'], credentials: true, }), dashboard_1.default);

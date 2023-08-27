@@ -14,7 +14,7 @@ const checkUserAccess_1 = __importDefault(require("../middleware/checkUserAccess
 const router = express_1.default.Router();
 const MongoDBStore = (0, connect_mongodb_session_1.default)(express_session_1.default);
 const store = new MongoDBStore({
-    uri: 'mongodb+srv://sean:GetOO44B2jXgSXTS@testcluster.cfgo7qm.mongodb.net/medde',
+    uri: `${process.env.MONGODB_URI}`,
     collection: 'dashboard-sessions',
 });
 const dashboardSession = (0, express_session_1.default)({
